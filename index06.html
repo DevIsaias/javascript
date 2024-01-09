@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando!!!!</title>
+</head>
+<body>
+    <script>
+        var  nome = (window.prompt('Escreva seu nome'))
+        var idade = (window.prompt('Escreva sua idade'))
+        var sal = (window.prompt('escreva seu salario'))
+        var n1 = Number(window.prompt('escreva um numero'))
+        var n2 = Number(window.prompt('escreva outro numero'))
+        var pal = (window.prompt('escreva uma palavra aleatória'))
+        var soma = (n1 + n2)
+
+        document.write (`Seu nome é ${nome}, sua idade é ${idade} anos, seu salario é ${sal.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})}, a soma de ${n1} mais ${n2} é ${soma}, sua palavra 
+        aleatoria em maiusculo é ${pal.toUpperCase()} e em minusculo é ${pal.toLowerCase()} e seu nome possue ${nome.length} letras. é isso`)
+    </script>
+</body>
+</html>
